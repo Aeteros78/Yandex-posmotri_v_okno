@@ -101,14 +101,15 @@ ol {
 .search-form__label {
   display: flex;
   width: fit-content;
-  align-items: baseline;
+  align-items: flex-start;
 }
 
 .search-form__fieldset {
   border: none;
   display: flex;
   flex-direction: column;
-  gap: 11px;
+  gap: 7px;
+  margin-bottom: 10px;
 }
 
 .search-form__textfield {
@@ -162,11 +163,6 @@ ol {
   outline-offset: 2px;
 }
 
-.search-form__submit-button:hover {
-  cursor: pointer;
-  text-decoration: underline;
-}
-
 .search-form__pseudo-checkbox {
   width: 19px;
   height: 19px;
@@ -179,10 +175,6 @@ ol {
   border: 2px solid black;
   outline: 1px solid #FFF;
   outline-offset: -1px;
-}
-
-.search-form__checkbox[type='checkbox']:hover + .search-form__pseudo-checkbox {
-  border-bottom: 1px solid #fff;
 }
 
 /* Общие стили для кнопок */
@@ -221,6 +213,12 @@ ol {
 
 .search-form__submit-button {
   min-width: 194px;
+  margin-bottom: 5px;
+}
+
+.search-form__submit-button:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 /* Стили для списка видео */
@@ -240,7 +238,7 @@ ol {
 }
 
 .content__list-item:not(:last-child) {
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 }
 
 .content__video-card-thumbnail {
@@ -278,7 +276,7 @@ ol {
 .content__video-card-title {
   font-size: 30px;
   line-height: 30px;
-  margin-top: 7px;
+  margin-top: 2px;
 }
 
 .content__video-card-description {
