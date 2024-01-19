@@ -109,7 +109,6 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 7px;
-  margin-bottom: 10px;
 }
 
 .search-form__textfield {
@@ -213,7 +212,6 @@ ol {
 
 .search-form__submit-button {
   min-width: 194px;
-  margin-bottom: 5px;
 }
 
 .search-form__submit-button:hover {
